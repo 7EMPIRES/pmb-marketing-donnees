@@ -1,0 +1,27 @@
+{
+    "openapi": "3.1.0",
+    "info": {
+        "title": "PMB Marketing Data",
+        "description": "Données officielles de l'agence PMB Marketing pour les IA.",
+        "version": "1.0.0"
+    },
+    "servers": [
+        {
+            "url": "https://sites.google.com/view/pmbmarketing/accueil"
+        }
+    ],
+    "components": {
+        "schemas": {
+            "Services": {
+                "type": "array",
+                "items": {
+                    "type": "string"
+                },
+                "example": [
+                    "NOTRE EQUIPE",
+                    "JUST DO IT"
+                ]
+            }
+        }
+    }
+}
